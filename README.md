@@ -1,16 +1,101 @@
-# React + Vite
+:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚗 ACORD Automobile Loss Notice (Web Version)
 
-Currently, two official plugins are available:
+A fully functional web-based implementation of the ACORD 2 – Automobile Loss Notice (2016/10) form.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 Live Demo:
+👉 https://acord-loss-notice.vercel.app/
 
-## React Compiler
+📌 Project Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project is a responsive web application that replicates the official ACORD Automobile Loss Notice form (Pages 1–2).
 
-## Expanding the ESLint configuration
+It allows users to:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Fill all required form fields
+
+Add/remove dynamic rows for Injured and Witnesses
+
+Validate required fields
+
+Preview submission
+
+Export as PDF (via Print)
+
+Maintain clean professional UI layout
+
+✨ Features
+✅ Complete ACORD Page 1–2 Coverage
+
+Header section (Date, Carrier, NAIC, Policy #, Line of Business)
+
+Agency details
+
+Insured information
+
+Contact details
+
+Loss details
+
+Insured vehicle information
+
+Other vehicle/property damaged
+
+Injured table (dynamic rows)
+
+Witnesses / Passengers table (dynamic rows)
+
+Remarks section
+
+✅ Form Functionality
+
+React Hook Form validation
+
+Zod schema validation
+
+Dynamic field arrays (add/remove rows)
+
+Clean responsive layout (mobile friendly)
+
+PDF export using Print
+
+🛠️ Tech Stack
+
+React (Vite)
+
+React Hook Form
+
+Zod
+
+Vercel (Deployment)
+
+🚀 Deployment
+
+This project is deployed on Vercel with automatic GitHub integration.
+
+Every push to main branch triggers:
+
+Automatic build
+
+Automatic deployment
+
+📂 Project Structure
+src/
+  components/
+    sections/
+    ui/
+  pages/
+  schema/
+  utils/
+
+⚙️ Installation (Local Setup)
+git clone https://github.com/YOUR_USERNAME/acord-loss-notice.git
+cd acord-loss-notice
+npm install
+npm run dev
+
+
+To build production:
+
+npm run build
